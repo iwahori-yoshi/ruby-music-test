@@ -22049,7 +22049,7 @@ mvma+Zr5mvma+Zr5mvma+Zr5mvma+Zr5mvma+Zr5mvma+Zr5mvma+Zr5mvma
 <span class="k">end</span>
 
 <span class="c1"># 频率变化曲线</span>
-<span class="c1"># 先降低在增高，吉他摇把</span>
+<span class="c1"># 先降低再增高，吉他摇把</span>
 <span class="n">plotter</span><span class="o">.</span><span class="n">plot</span> <span class="p">(</span><span class="mi">0</span><span class="o">..</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="mi">0</span><span class="o">.</span><span class="mo">01</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">{</span><span class="o">|</span><span class="n">progress</span><span class="o">|</span> <span class="vg">$freq_ctrl</span><span class="o">.</span><span class="n">call</span><span class="p">(</span><span class="mi">440</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">progress</span><span class="p">)}</span>
 
 <span class="c1"># 听一听</span>
